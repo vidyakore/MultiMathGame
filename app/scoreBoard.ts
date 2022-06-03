@@ -1,5 +1,6 @@
-/// <reference path="result.ts" />
-class Scoreboard 
+// / <reference path="result.ts" />
+import { Result } from './result';
+export class Scoreboard 
 {
     private results: Result[] = [];
 
